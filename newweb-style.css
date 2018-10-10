@@ -6,15 +6,21 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
     color: crimson;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(204, 149, 162);
+  
 }
 h2,h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 24px;
     color: orangered;
 }
-.main_image{
+.main_image, .image-causes{
     text-align: center;
-
+}
+.autoimmune_diagram{
+    text-align: center
 }
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,7 +35,7 @@ nav ul{
     display:inline;
     }
 nav li{
-    display:inline-block;
+    display:inline;
     font-size:18px;
     }
 nav a{
@@ -37,4 +43,19 @@ nav a{
   line-height: 30px;
   color: #204156;
   text-decoration:none;
+}
+.list{
+    display: flex;
+    }
+.button a{
+    position:relative;
+    cursor: pointer;
+    background-color: bisque;
+}
+.button a:active{
+    top:2px;
+}
+.clauses{
+    object-position: 750px;
+
 }
