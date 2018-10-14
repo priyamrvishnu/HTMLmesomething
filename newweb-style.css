@@ -16,11 +16,21 @@ h2,h3{
     font-size: 24px;
     color: orangered;
 }
-.main_image, .image-causes{
+.main_image{
     text-align: center;
+    border: 1px double black;
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+
 }
-.autoimmune_diagram{
-    text-align: center
+#autoimmune_diagram, #image-causes{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 }
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -51,6 +61,7 @@ nav a{
     position:relative;
     cursor: pointer;
     background-color: bisque;
+    disply:flex;
 }
 .button a:active{
     top:2px;
@@ -58,4 +69,7 @@ nav a{
 .clauses{
     object-position: 750px;
 
+}
+footer{
+    text-align: right;
 }
